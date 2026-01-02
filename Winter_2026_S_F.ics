@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-PRODID:-//ChatGPT//Seneca Winter 2026 Schedule//EN
+PRODID:-//ChatGPT//Seneca Winter 2026 Schedule + Important Dates//EN
 VERSION:2.0
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
@@ -22,6 +22,7 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 
+### --- 课程事件 --- ###
 BEGIN:VEVENT
 UID:web322-lecture@chatgpt-calendar
 SUMMARY:WEB 322 Lecture
@@ -102,12 +103,12 @@ DTEND;TZID=America/Toronto:20260109T113500
 RRULE:FREQ=WEEKLY;BYDAY=FR;UNTIL=20260410T235959Z
 END:VEVENT
 
+### --- 重要学术日期 --- ###
 BEGIN:VEVENT
 UID:nov12-2025-deposit@chatgpt-calendar
 SUMMARY:New students (domestic) — Winter 2026 Term tuition deposit due
 DTSTART;TZID=America/Toronto:20251112T000000
 DTEND;TZID=America/Toronto:20251112T235900
-DESCRIPTION:Tuition deposit due for Winter 2026 Term
 END:VEVENT
 
 BEGIN:VEVENT
@@ -115,7 +116,6 @@ UID:nov12-2025-returning@chatgpt-calendar
 SUMMARY:Returning students — Winter 2026 Term tuition deposit due
 DTSTART;TZID=America/Toronto:20251112T000000
 DTEND;TZID=America/Toronto:20251112T235900
-DESCRIPTION:Tuition deposit due for 2025/2026 academic year (once per year)
 END:VEVENT
 
 BEGIN:VEVENT
@@ -166,6 +166,174 @@ UID:jan14-2026-add@chatgpt-calendar
 SUMMARY:Last day to add course(s) for Session 1, 7S1 and 7S2
 DTSTART;TZID=America/Toronto:20260114T000000
 DTEND;TZID=America/Toronto:20260114T235900
+END:VEVENT
+
+BEGIN:VEVENT
+UID:jan16-2026-drop@chatgpt-calendar
+SUMMARY:Last day to drop course(s) without receiving a grade and with a potential refund for Session 1 and 7S1
+DTSTART;TZID=America/Toronto:20260116T000000
+DTEND;TZID=America/Toronto:20260116T235900
+END:VEVENT
+
+BEGIN:VEVENT
+UID:jan21-2026-late-tuition@chatgpt-calendar
+SUMMARY:Late tuition payment for Winter 2026 Term with financial penalty
+DTSTART;TZID=America/Toronto:20260121T000000
+DTEND;TZID=America/Toronto:20260121T235900
+END:VEVENT
+
+BEGIN:VEVENT
+UID:jan23-2026-fall-grades@chatgpt-calendar
+SUMMARY:Last day to submit grades for Fall 2025
+DTSTART;TZID=America/Toronto:20260123T000000
+DTEND;TZID=America/Toronto:20260123T235900
+END:VEVENT
+
+BEGIN:VEVENT
+UID:feb06-2026-drop@chatgpt-calendar
+SUMMARY:Last day to drop Session 7S1 course(s) and receive a DNC (Did Not Complete) grade
+DTSTART;TZID=America/Toronto:20260206T000000
+DTEND;TZID=America/Toronto:20260206T235900
+END:VEVENT
+
+BEGIN:VEVENT
+UID:feb16-2026-family@chatgpt-calendar
+SUMMARY:Family Day — holiday (Seneca closed)
+DTSTART;TZID=America/Toronto:20260216T000000
+DTEND;TZID=America/Toronto:20260216T235900
+END:VEVENT
+
+BEGIN:VEVENT
+UID:feb19-22-2026-convocation@chatgpt-calendar
+SUMMARY:Convocation — December 2025 graduates
+DTSTART;TZID=America/Toronto:20260219T000000
+DTEND;TZID=America/Toronto:20260222T235900
+END:VEVENT
+
+BEGIN:VEVENT
+UID:feb21-2026-session7s1end@chatgpt-calendar
+SUMMARY:Session 7S1 classes end
+DTSTART;TZID=America/Toronto:20260221T000000
+DTEND;TZID=America/Toronto:20260221T235900
+END:VEVENT
+
+BEGIN:VEVENT
+UID:feb23-27-2026-studyweek@chatgpt-calendar
+SUMMARY:Study Week (Seneca open)
+DTSTART;TZID=America/Toronto:20260223T000000
+DTEND;TZID=America/Toronto:20260227T235900
+END:VEVENT
+
+BEGIN:VEVENT
+UID:mar02-2026-session7s2start@chatgpt-calendar
+SUMMARY:Session 7S2 classes begin
+DTSTART;TZID=America/Toronto:20260302T000000
+DTEND;TZID=America/Toronto:20260302T235900
+END:VEVENT
+
+BEGIN:VEVENT
+UID:mar04-2026-late-tuition2@chatgpt-calendar
+SUMMARY:Second Late tuition payment for Winter 2026 Term with financial penalty
+DTSTART;TZID=America/Toronto:20260304T000000
+DTEND;TZID=America/Toronto:20260304T235900
+END:VEVENT
+
+BEGIN:VEVENT
+UID:mar06-2026-add7s2@chatgpt-calendar
+SUMMARY:Last day to add 7S2 course(s) — ELI courses only
+DTSTART;TZID=America/Toronto:20260306T000000
+DTEND;TZID=America/Toronto:20260306T235900
+END:VEVENT
+
+BEGIN:VEVENT
+UID:mar11-2026-deposit@chatgpt-calendar
+SUMMARY:New students/Returning students — Summer 2026 Term tuition deposit due
+DTSTART;TZID=America/Toronto:20260311T000000
+DTEND;TZID=America/Toronto:20260311T235900
+END:VEVENT
+
+BEGIN:VEVENT
+UID:mar13-2026-drop7s2@chatgpt-calendar
+SUMMARY:Last day to drop 7S2 course(s) without grade & Session 1 DNC
+DTSTART;TZID=America/Toronto:20260313T000000
+DTEND;TZID=America/Toronto:20260313T235900
+END:VEVENT
+
+BEGIN:VEVENT
+UID:apr01-2026-late-tuition7s2@chatgpt-calendar
+SUMMARY:Late tuition payment for 7S2 course(s) (ELIB only) with financial penalty
+DTSTART;TZID=America/Toronto:20260401T000000
+DTEND;TZID=America/Toronto:20260401T235900
+END:VEVENT
+
+BEGIN:VEVENT
+UID:apr01-2026-transfer-summer@chatgpt-calendar
+SUMMARY:Last day to submit requests for transfer credit for Summer 2026 Term
+DTSTART;TZID=America/Toronto:20260401T000000
+DTEND;TZID=America/Toronto:20260401T235900
+END:VEVENT
+
+BEGIN:VEVENT
+UID:apr02-2026-drop7s2@chatgpt-calendar
+SUMMARY:Last day to drop 7S2 course(s) and receive a DNC
+DTSTART;TZID=America/Toronto:20260402T000000
+DTEND;TZID=America/Toronto:20260402T235900
+END:VEVENT
+
+BEGIN:VEVENT
+UID:apr03-2026-goodfriday@chatgpt-calendar
+SUMMARY:Good Friday — holiday (Seneca closed)
+DTSTART;TZID=America/Toronto:20260403T000000
+DTEND;TZID=America/Toronto:20260403T235900
+END:VEVENT
+
+BEGIN:VEVENT
+UID:apr09-2026-openenrol-summer@chatgpt-calendar
+SUMMARY:Open enrolment begins for Summer 2026 Term on Student Home
+DTSTART;TZID=America/Toronto:20260409T000000
+DTEND;TZID=America/Toronto:20260409T235900
+END:VEVENT
+
+BEGIN:VEVENT
+UID:apr17-2026-termend@chatgpt-calendar
+SUMMARY:Winter 2026 Term ends
+DTSTART;TZID=America/Toronto:20260417T000000
+DTEND;TZID=America/Toronto:20260417T235900
+END:VEVENT
+
+BEGIN:VEVENT
+UID:apr20-2026-finalgrades@chatgpt-calendar
+SUMMARY:Final grades due by 9 a.m.
+DTSTART;TZID=America/Toronto:20260420T090000
+DTEND;TZID=America/Toronto:20260420T100000
+END:VEVENT
+
+BEGIN:VEVENT
+UID:apr24-2026-finalgrades@chatgpt-calendar
+SUMMARY:Final grades for Winter 2026 Term available on Student Home
+DTSTART;TZID=America/Toronto:20260424T000000
+DTEND;TZID=America/Toronto:20260424T235900
+END:VEVENT
+
+BEGIN:VEVENT
+UID:may01-2026-session16wend@chatgpt-calendar
+SUMMARY:Session 16W classes end
+DTSTART;TZID=America/Toronto:20260501T000000
+DTEND;TZID=America/Toronto:20260501T235900
+END:VEVENT
+
+BEGIN:VEVENT
+UID:may07-2026-finalgrades@chatgpt-calendar
+SUMMARY:Final grades for Session 16W available on Student Home
+DTSTART;TZID=America/Toronto:20260507T000000
+DTEND;TZID=America/Toronto:20260507T235900
+END:VEVENT
+
+BEGIN:VEVENT
+UID:may29-2026-gradechange@chatgpt-calendar
+SUMMARY:Last day to submit grades/grade change for Winter 2026 Term
+DTSTART;TZID=America/Toronto:20260529T000000
+DTEND;TZID=America/Toronto:20260529T235900
 END:VEVENT
 
 END:VCALENDAR
