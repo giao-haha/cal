@@ -1,5 +1,5 @@
 BEGIN:VCALENDAR
-PRODID:-//ChatGPT//Seneca Fall 2025 Schedule//EN
+PRODID:-//ChatGPT//Seneca Winter 2026 Schedule + Important Dates//EN
 VERSION:2.0
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
@@ -22,76 +22,318 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 
+### --- 课程事件 --- ###
 BEGIN:VEVENT
-UID:85aa423b-7239-4576-a44e-cb5dee2d6596@chatgpt-calendar
-SUMMARY:OOP 244 Lecture
-LOCATION:Newnham Bldg B - 1091
-DESCRIPTION:Introduction to Object Oriented Programming
-DTSTART;TZID=America/Toronto:20250908T114000
-DTEND;TZID=America/Toronto:20250908T132500
-RRULE:FREQ=WEEKLY;BYDAY=MO;UNTIL=20251212T235959Z
+UID:web322-lecture@chatgpt-calendar
+SUMMARY:WEB 322 Lecture
+LOCATION:Newnham Bldg B - B1080
+DESCRIPTION:Web Programming 322 - Lecture
+DTSTART;TZID=America/Toronto:20260105T080000
+DTEND;TZID=America/Toronto:20260105T094500
+RRULE:FREQ=WEEKLY;BYDAY=MO;UNTIL=20260410T235959Z
 END:VEVENT
+
 BEGIN:VEVENT
-UID:ab8f8f63-8616-45e6-a450-5b1fea92c2ea@chatgpt-calendar
-SUMMARY:OOP 244 Supported Learning Group (SLG)
-LOCATION:ONLINE
-DESCRIPTION:SLG - Weekly supported learning session (online)
-DTSTART;TZID=America/Toronto:20250908T142500
-DTEND;TZID=America/Toronto:20250908T161000
-RRULE:FREQ=WEEKLY;BYDAY=MO;UNTIL=20251212T235959Z
-END:VEVENT
-BEGIN:VEVENT
-UID:e697df6f-3eec-4513-9958-2f314ff15ae6@chatgpt-calendar
+UID:dbs311-lecture@chatgpt-calendar
 SUMMARY:DBS 311 Lecture
-LOCATION:Newnham Bldg A - A2520
+LOCATION:Newnham Bldg B - B3088
 DESCRIPTION:Advanced Database Services - Lecture
-DTSTART;TZID=America/Toronto:20250902T095000
-DTEND;TZID=America/Toronto:20250902T113500
-RRULE:FREQ=WEEKLY;BYDAY=TU;UNTIL=20251212T235959Z
+DTSTART;TZID=America/Toronto:20260105T095000
+DTEND;TZID=America/Toronto:20260105T113500
+RRULE:FREQ=WEEKLY;BYDAY=MO;UNTIL=20260410T235959Z
 END:VEVENT
+
 BEGIN:VEVENT
-UID:96162d5f-4297-4b79-8114-7786c3cd457d@chatgpt-calendar
-SUMMARY:WEB 222 Lecture
-LOCATION:Newnham Bldg A - A3527
-DESCRIPTION:Web Programming Principles - Lecture
-DTSTART;TZID=America/Toronto:20250902T114000
-DTEND;TZID=America/Toronto:20250902T132500
-RRULE:FREQ=WEEKLY;BYDAY=TU;UNTIL=20251212T235959Z
+UID:oop244-lecture@chatgpt-calendar
+SUMMARY:OOP 244 Lecture
+LOCATION:Newnham Bldg A - A3505
+DESCRIPTION:Object Oriented Programming - Lecture
+DTSTART;TZID=America/Toronto:20260105T114000
+DTEND;TZID=America/Toronto:20260105T132500
+RRULE:FREQ=WEEKLY;BYDAY=MO;UNTIL=20260410T235959Z
 END:VEVENT
+
 BEGIN:VEVENT
-UID:554ad363-e4dd-4098-aa15-1235faceb5ba@chatgpt-calendar
-SUMMARY:CUL 610 Lecture
+UID:eac455-lecture@chatgpt-calendar
+SUMMARY:EAC 455 Lecture
 LOCATION:ONLINE
-DESCRIPTION:China and the World - Online Synchronous/Asynchronous
-DTSTART;TZID=America/Toronto:20250902T161500
-DTEND;TZID=America/Toronto:20250902T185500
-RRULE:FREQ=WEEKLY;BYDAY=TU;UNTIL=20251212T235959Z
+DESCRIPTION:EAC 455 - Lecture
+DTSTART;TZID=America/Toronto:20260106T133000
+DTEND;TZID=America/Toronto:20260106T151500
+RRULE:FREQ=WEEKLY;BYDAY=TU;UNTIL=20260410T235959Z
 END:VEVENT
+
 BEGIN:VEVENT
-UID:d5e21ac6-31a0-4a01-b05a-14146d6fee3a@chatgpt-calendar
+UID:oop244-lab@chatgpt-calendar
 SUMMARY:OOP 244 Lab
-LOCATION:Newnham Bldg A - A1509
-DESCRIPTION:OOP 244 Lab
-DTSTART;TZID=America/Toronto:20250903T133000
-DTEND;TZID=America/Toronto:20250903T151500
-RRULE:FREQ=WEEKLY;BYDAY=WE;UNTIL=20251212T235959Z
+LOCATION:Newnham Bldg A - A4515
+DESCRIPTION:OOP 244 - Lab
+DTSTART;TZID=America/Toronto:20260107T080000
+DTEND;TZID=America/Toronto:20260107T094500
+RRULE:FREQ=WEEKLY;BYDAY=WE;UNTIL=20260410T235959Z
 END:VEVENT
+
 BEGIN:VEVENT
-UID:822b7951-360a-4c4c-b575-250413cf8b26@chatgpt-calendar
+UID:dbs311-lab@chatgpt-calendar
 SUMMARY:DBS 311 Lab
-LOCATION:Newnham Bldg A - A3512
-DESCRIPTION:Advanced Database Services - Lab
-DTSTART;TZID=America/Toronto:20250904T114000
-DTEND;TZID=America/Toronto:20250904T132500
-RRULE:FREQ=WEEKLY;BYDAY=TH;UNTIL=20251212T235959Z
+LOCATION:Newnham Bldg A - A3516
+DESCRIPTION:DBS 311 - Lab
+DTSTART;TZID=America/Toronto:20260107T114000
+DTEND;TZID=America/Toronto:20260107T132500
+RRULE:FREQ=WEEKLY;BYDAY=WE;UNTIL=20260410T235959Z
 END:VEVENT
+
 BEGIN:VEVENT
-UID:1394705d-458e-4469-a148-64f589fa2941@chatgpt-calendar
-SUMMARY:WEB 222 Lecture
-LOCATION:Newnham Bldg A - A2534
-DESCRIPTION:Web Programming Principles - Second weekly lecture
-DTSTART;TZID=America/Toronto:20250904T133000
-DTEND;TZID=America/Toronto:20250904T151500
-RRULE:FREQ=WEEKLY;BYDAY=TH;UNTIL=20251212T235959Z
+UID:oop244-slg@chatgpt-calendar
+SUMMARY:OOP 244 Supported Learning Group
+LOCATION:ONLINE
+DESCRIPTION:OOP 244 - SLG (online)
+DTSTART;TZID=America/Toronto:20260108T152000
+DTEND;TZID=America/Toronto:20260108T170500
+RRULE:FREQ=WEEKLY;BYDAY=TH;UNTIL=20260410T235959Z
 END:VEVENT
+
+BEGIN:VEVENT
+UID:web322-lab@chatgpt-calendar
+SUMMARY:WEB 322 Lab
+LOCATION:Newnham Bldg A - A2534
+DESCRIPTION:WEB 322 - Lab
+DTSTART;TZID=America/Toronto:20260109T095000
+DTEND;TZID=America/Toronto:20260109T113500
+RRULE:FREQ=WEEKLY;BYDAY=FR;UNTIL=20260410T235959Z
+END:VEVENT
+
+### --- 重要学术日期 --- ###
+BEGIN:VEVENT
+UID:nov12-2025-deposit@chatgpt-calendar
+SUMMARY:New students (domestic) — Winter 2026 Term tuition deposit due
+DTSTART;TZID=America/Toronto:20251112T000000
+DTEND;TZID=America/Toronto:20251112T235900
+END:VEVENT
+
+BEGIN:VEVENT
+UID:nov12-2025-returning@chatgpt-calendar
+SUMMARY:Returning students — Winter 2026 Term tuition deposit due
+DTSTART;TZID=America/Toronto:20251112T000000
+DTEND;TZID=America/Toronto:20251112T235900
+END:VEVENT
+
+BEGIN:VEVENT
+UID:dec01-2025-transfer@chatgpt-calendar
+SUMMARY:Last day to submit requests for transfer credit for Winter 2026 Term
+DTSTART;TZID=America/Toronto:20251201T000000
+DTEND;TZID=America/Toronto:20251201T235900
+END:VEVENT
+
+BEGIN:VEVENT
+UID:dec04-2025-openenrol@chatgpt-calendar
+SUMMARY:Open enrolment begins for Winter 2026 Term on Student Home
+DTSTART;TZID=America/Toronto:20251204T000000
+DTEND;TZID=America/Toronto:20251204T235900
+END:VEVENT
+
+BEGIN:VEVENT
+UID:dec08-2025-virtual-intl@chatgpt-calendar
+SUMMARY:Virtual Orientation - International students
+DTSTART;TZID=America/Toronto:20251208T000000
+DTEND;TZID=America/Toronto:20251208T235900
+END:VEVENT
+
+BEGIN:VEVENT
+UID:dec15-2025-virtual-all@chatgpt-calendar
+SUMMARY:Virtual Orientation - All Students
+DTSTART;TZID=America/Toronto:20251215T000000
+DTEND;TZID=America/Toronto:20251215T235900
+END:VEVENT
+
+BEGIN:VEVENT
+UID:jan01-2026-holiday@chatgpt-calendar
+SUMMARY:New Year's Day — holiday (Seneca closed)
+DTSTART;TZID=America/Toronto:20260101T000000
+DTEND;TZID=America/Toronto:20260101T235900
+END:VEVENT
+
+BEGIN:VEVENT
+UID:jan05-2026-termstart@chatgpt-calendar
+SUMMARY:Winter 2026 Term begins — classes start
+DTSTART;TZID=America/Toronto:20260105T000000
+DTEND;TZID=America/Toronto:20260105T235900
+DESCRIPTION:Seneca open, Winter 2026 Term tuition due
+END:VEVENT
+
+BEGIN:VEVENT
+UID:jan14-2026-add@chatgpt-calendar
+SUMMARY:Last day to add course(s) for Session 1, 7S1 and 7S2
+DTSTART;TZID=America/Toronto:20260114T000000
+DTEND;TZID=America/Toronto:20260114T235900
+END:VEVENT
+
+BEGIN:VEVENT
+UID:jan16-2026-drop@chatgpt-calendar
+SUMMARY:Last day to drop course(s) without receiving a grade and with a potential refund for Session 1 and 7S1
+DTSTART;TZID=America/Toronto:20260116T000000
+DTEND;TZID=America/Toronto:20260116T235900
+END:VEVENT
+
+BEGIN:VEVENT
+UID:jan21-2026-late-tuition@chatgpt-calendar
+SUMMARY:Late tuition payment for Winter 2026 Term with financial penalty
+DTSTART;TZID=America/Toronto:20260121T000000
+DTEND;TZID=America/Toronto:20260121T235900
+END:VEVENT
+
+BEGIN:VEVENT
+UID:jan23-2026-fall-grades@chatgpt-calendar
+SUMMARY:Last day to submit grades for Fall 2025
+DTSTART;TZID=America/Toronto:20260123T000000
+DTEND;TZID=America/Toronto:20260123T235900
+END:VEVENT
+
+BEGIN:VEVENT
+UID:feb06-2026-drop@chatgpt-calendar
+SUMMARY:Last day to drop Session 7S1 course(s) and receive a DNC (Did Not Complete) grade
+DTSTART;TZID=America/Toronto:20260206T000000
+DTEND;TZID=America/Toronto:20260206T235900
+END:VEVENT
+
+BEGIN:VEVENT
+UID:feb16-2026-family@chatgpt-calendar
+SUMMARY:Family Day — holiday (Seneca closed)
+DTSTART;TZID=America/Toronto:20260216T000000
+DTEND;TZID=America/Toronto:20260216T235900
+END:VEVENT
+
+BEGIN:VEVENT
+UID:feb19-22-2026-convocation@chatgpt-calendar
+SUMMARY:Convocation — December 2025 graduates
+DTSTART;TZID=America/Toronto:20260219T000000
+DTEND;TZID=America/Toronto:20260222T235900
+END:VEVENT
+
+BEGIN:VEVENT
+UID:feb21-2026-session7s1end@chatgpt-calendar
+SUMMARY:Session 7S1 classes end
+DTSTART;TZID=America/Toronto:20260221T000000
+DTEND;TZID=America/Toronto:20260221T235900
+END:VEVENT
+
+BEGIN:VEVENT
+UID:feb23-27-2026-studyweek@chatgpt-calendar
+SUMMARY:Study Week (Seneca open)
+DTSTART;TZID=America/Toronto:20260223T000000
+DTEND;TZID=America/Toronto:20260227T235900
+END:VEVENT
+
+BEGIN:VEVENT
+UID:mar02-2026-session7s2start@chatgpt-calendar
+SUMMARY:Session 7S2 classes begin
+DTSTART;TZID=America/Toronto:20260302T000000
+DTEND;TZID=America/Toronto:20260302T235900
+END:VEVENT
+
+BEGIN:VEVENT
+UID:mar04-2026-late-tuition2@chatgpt-calendar
+SUMMARY:Second Late tuition payment for Winter 2026 Term with financial penalty
+DTSTART;TZID=America/Toronto:20260304T000000
+DTEND;TZID=America/Toronto:20260304T235900
+END:VEVENT
+
+BEGIN:VEVENT
+UID:mar06-2026-add7s2@chatgpt-calendar
+SUMMARY:Last day to add 7S2 course(s) — ELI courses only
+DTSTART;TZID=America/Toronto:20260306T000000
+DTEND;TZID=America/Toronto:20260306T235900
+END:VEVENT
+
+BEGIN:VEVENT
+UID:mar11-2026-deposit@chatgpt-calendar
+SUMMARY:New students/Returning students — Summer 2026 Term tuition deposit due
+DTSTART;TZID=America/Toronto:20260311T000000
+DTEND;TZID=America/Toronto:20260311T235900
+END:VEVENT
+
+BEGIN:VEVENT
+UID:mar13-2026-drop7s2@chatgpt-calendar
+SUMMARY:Last day to drop 7S2 course(s) without grade & Session 1 DNC
+DTSTART;TZID=America/Toronto:20260313T000000
+DTEND;TZID=America/Toronto:20260313T235900
+END:VEVENT
+
+BEGIN:VEVENT
+UID:apr01-2026-late-tuition7s2@chatgpt-calendar
+SUMMARY:Late tuition payment for 7S2 course(s) (ELIB only) with financial penalty
+DTSTART;TZID=America/Toronto:20260401T000000
+DTEND;TZID=America/Toronto:20260401T235900
+END:VEVENT
+
+BEGIN:VEVENT
+UID:apr01-2026-transfer-summer@chatgpt-calendar
+SUMMARY:Last day to submit requests for transfer credit for Summer 2026 Term
+DTSTART;TZID=America/Toronto:20260401T000000
+DTEND;TZID=America/Toronto:20260401T235900
+END:VEVENT
+
+BEGIN:VEVENT
+UID:apr02-2026-drop7s2@chatgpt-calendar
+SUMMARY:Last day to drop 7S2 course(s) and receive a DNC
+DTSTART;TZID=America/Toronto:20260402T000000
+DTEND;TZID=America/Toronto:20260402T235900
+END:VEVENT
+
+BEGIN:VEVENT
+UID:apr03-2026-goodfriday@chatgpt-calendar
+SUMMARY:Good Friday — holiday (Seneca closed)
+DTSTART;TZID=America/Toronto:20260403T000000
+DTEND;TZID=America/Toronto:20260403T235900
+END:VEVENT
+
+BEGIN:VEVENT
+UID:apr09-2026-openenrol-summer@chatgpt-calendar
+SUMMARY:Open enrolment begins for Summer 2026 Term on Student Home
+DTSTART;TZID=America/Toronto:20260409T000000
+DTEND;TZID=America/Toronto:20260409T235900
+END:VEVENT
+
+BEGIN:VEVENT
+UID:apr17-2026-termend@chatgpt-calendar
+SUMMARY:Winter 2026 Term ends
+DTSTART;TZID=America/Toronto:20260417T000000
+DTEND;TZID=America/Toronto:20260417T235900
+END:VEVENT
+
+BEGIN:VEVENT
+UID:apr20-2026-finalgrades@chatgpt-calendar
+SUMMARY:Final grades due by 9 a.m.
+DTSTART;TZID=America/Toronto:20260420T090000
+DTEND;TZID=America/Toronto:20260420T100000
+END:VEVENT
+
+BEGIN:VEVENT
+UID:apr24-2026-finalgrades@chatgpt-calendar
+SUMMARY:Final grades for Winter 2026 Term available on Student Home
+DTSTART;TZID=America/Toronto:20260424T000000
+DTEND;TZID=America/Toronto:20260424T235900
+END:VEVENT
+
+BEGIN:VEVENT
+UID:may01-2026-session16wend@chatgpt-calendar
+SUMMARY:Session 16W classes end
+DTSTART;TZID=America/Toronto:20260501T000000
+DTEND;TZID=America/Toronto:20260501T235900
+END:VEVENT
+
+BEGIN:VEVENT
+UID:may07-2026-finalgrades@chatgpt-calendar
+SUMMARY:Final grades for Session 16W available on Student Home
+DTSTART;TZID=America/Toronto:20260507T000000
+DTEND;TZID=America/Toronto:20260507T235900
+END:VEVENT
+
+BEGIN:VEVENT
+UID:may29-2026-gradechange@chatgpt-calendar
+SUMMARY:Last day to submit grades/grade change for Winter 2026 Term
+DTSTART;TZID=America/Toronto:20260529T000000
+DTEND;TZID=America/Toronto:20260529T235900
+END:VEVENT
+
 END:VCALENDAR
