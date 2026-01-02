@@ -102,4 +102,70 @@ DTEND;TZID=America/Toronto:20260109T113500
 RRULE:FREQ=WEEKLY;BYDAY=FR;UNTIL=20260410T235959Z
 END:VEVENT
 
+BEGIN:VEVENT
+UID:nov12-2025-deposit@chatgpt-calendar
+SUMMARY:New students (domestic) — Winter 2026 Term tuition deposit due
+DTSTART;TZID=America/Toronto:20251112T000000
+DTEND;TZID=America/Toronto:20251112T235900
+DESCRIPTION:Tuition deposit due for Winter 2026 Term
+END:VEVENT
+
+BEGIN:VEVENT
+UID:nov12-2025-returning@chatgpt-calendar
+SUMMARY:Returning students — Winter 2026 Term tuition deposit due
+DTSTART;TZID=America/Toronto:20251112T000000
+DTEND;TZID=America/Toronto:20251112T235900
+DESCRIPTION:Tuition deposit due for 2025/2026 academic year (once per year)
+END:VEVENT
+
+BEGIN:VEVENT
+UID:dec01-2025-transfer@chatgpt-calendar
+SUMMARY:Last day to submit requests for transfer credit for Winter 2026 Term
+DTSTART;TZID=America/Toronto:20251201T000000
+DTEND;TZID=America/Toronto:20251201T235900
+END:VEVENT
+
+BEGIN:VEVENT
+UID:dec04-2025-openenrol@chatgpt-calendar
+SUMMARY:Open enrolment begins for Winter 2026 Term on Student Home
+DTSTART;TZID=America/Toronto:20251204T000000
+DTEND;TZID=America/Toronto:20251204T235900
+END:VEVENT
+
+BEGIN:VEVENT
+UID:dec08-2025-virtual-intl@chatgpt-calendar
+SUMMARY:Virtual Orientation - International students
+DTSTART;TZID=America/Toronto:20251208T000000
+DTEND;TZID=America/Toronto:20251208T235900
+END:VEVENT
+
+BEGIN:VEVENT
+UID:dec15-2025-virtual-all@chatgpt-calendar
+SUMMARY:Virtual Orientation - All Students
+DTSTART;TZID=America/Toronto:20251215T000000
+DTEND;TZID=America/Toronto:20251215T235900
+END:VEVENT
+
+BEGIN:VEVENT
+UID:jan01-2026-holiday@chatgpt-calendar
+SUMMARY:New Year's Day — holiday (Seneca closed)
+DTSTART;TZID=America/Toronto:20260101T000000
+DTEND;TZID=America/Toronto:20260101T235900
+END:VEVENT
+
+BEGIN:VEVENT
+UID:jan05-2026-termstart@chatgpt-calendar
+SUMMARY:Winter 2026 Term begins — classes start
+DTSTART;TZID=America/Toronto:20260105T000000
+DTEND;TZID=America/Toronto:20260105T235900
+DESCRIPTION:Seneca open, Winter 2026 Term tuition due
+END:VEVENT
+
+BEGIN:VEVENT
+UID:jan14-2026-add@chatgpt-calendar
+SUMMARY:Last day to add course(s) for Session 1, 7S1 and 7S2
+DTSTART;TZID=America/Toronto:20260114T000000
+DTEND;TZID=America/Toronto:20260114T235900
+END:VEVENT
+
 END:VCALENDAR
