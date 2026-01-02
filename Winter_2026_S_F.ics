@@ -22,7 +22,6 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 
-### --- 课程事件 --- ###
 BEGIN:VEVENT
 UID:web322-lecture@chatgpt-calendar
 SUMMARY:WEB 322 Lecture
@@ -103,7 +102,6 @@ DTEND;TZID=America/Toronto:20260109T113500
 RRULE:FREQ=WEEKLY;BYDAY=FR;UNTIL=20260410T235959Z
 END:VEVENT
 
-### --- 重要学术日期 --- ###
 BEGIN:VEVENT
 UID:nov12-2025-deposit@chatgpt-calendar
 SUMMARY:New students (domestic) — Winter 2026 Term tuition deposit due
